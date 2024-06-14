@@ -13,4 +13,11 @@ const gameName = new String("AnupBorker");
 // console.log(gameName.length);
 
 
-console.log(gameName.charAt(3))
+console.log(gameName.charAt(3));
+
+const newString = gameName.substring(0 , 4);
+console.log(newString);
+
+
+const newString1 = gameName.substring(5, -4);
+console.log(newString1);
